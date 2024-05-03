@@ -1,0 +1,23 @@
+html,
+body{
+  height: 100%;
+}
+
+body{
+  color: #fff;
+  font-size: 16px;
+  line-height: 18.5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.main{
+  flex-grow: 1;
+}
+
+.container{
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
